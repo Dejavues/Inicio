@@ -1,5 +1,10 @@
 
 /* PAGINA DE INICIO*/
+@font-face{font-family: "Open Dyslexic";
+    src: url("Sweetlove/Fonts/OpenDyslexic3-Regular.ttf") format("truetype");
+    font-weight: 100px;
+    font-family: 'Open Dyslexic';}
+
 .inicio{
     background: rgb(148, 216, 230);
     background-image: url(https://i.pinimg.com/1200x/be/d1/2e/bed12e9f52cf05683ee7136a626f1bed.jpg);
@@ -8,11 +13,12 @@
     background-position: top;
     background-repeat: no-repeat;
         margin: 0;
+    
 }
 
 .card{
     text-align: center;
-    width: 300px;
+    width: 30%;
     /* lo centra en toda la pagina */
     margin: auto;
     margin-top: 50px;
@@ -25,7 +31,7 @@
 
 .card2{
     text-align: center;
-    width: 300px;
+    width: 30%;
     /* lo centra en toda la pagina */
     margin: auto;
     margin-top: 50px;
@@ -37,10 +43,11 @@
 
 .card3{
     text-align: center;
-    width: 300px;
+    width: 30%;
     /* lo centra en toda la pagina */
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 20px 10px;
     box-shadow: 0px 0px 45px rgb(95, 95, 228);
     background: linear-gradient(rgb(70, 79, 246),rgb(132, 133, 224));
@@ -49,22 +56,26 @@
 
 .card-title{
     padding-top: 10px; 
-    font-size: 22px;
+    font-size: 100%;
     margin: 0;
-    color: cadetblue;}
+    color: cadetblue;
+    font-family: 'Open Dyslexic';
+}
 
 .card-subtitle{ 
-    font-size: 13px; 
+    font-size: 100%; 
     font-weight:100; 
     letter-spacing: 2px;
-    color: cadetblue
+    color: cadetblue;
+    font-family: 'Open Dyslexic';
 }
 .card-img{
-    width: 110px;
+    max-width: 50%;
+    height: auto;
     padding-top: 25px;
     border-radius: 10%;
 }
-.card-content{font-size: 9px; 
+.card-content{ 
     padding: 0px;  
     text-align: center; 
     font-size: 100%;
@@ -95,4 +106,48 @@ p{
 }
 .formulario{
     text-align: center;
+}
+textarea{
+    font-family: 'Open Dyslexic';
+    min-width: 100%;
+    resize: vertical;
+    min-height: 70px;
+    max-height: 200px;
+    text-align: center;
+}
+
+a{
+        font-family: 'Open Dyslexic';
+
+}
+
+input{
+    font-family: 'Open Dyslexic';
+    text-align: center;
+}
+
+
+summary{
+    background-color:transparent;
+    border-bottom: 1px solid rgb(115, 57, 125);
+    font-size: 1.3em;
+    color: rgb(115, 57, 125);
+    
+}
+
+details{
+    background-color:transparent;
+    border: 1px solid rgb(115, 57, 125);
+    padding: 9px;
+    font-size: 1em;
+    color: rgb(48, 54, 169);
+    margin-bottom: 5%;
+        font-family: 'Open Dyslexic';
+
+}
+.form-input{
+    margin-bottom: 50px;
+    font-family: 'Open Dyslexic';
+    text-align: center;
+
 }
