@@ -18,7 +18,9 @@
 
 .card{
     text-align: center;
-    width: 40%;
+    width: 60%;
+    max-width: 400px; 
+    margin: 0 auto;   /* centra la caja */
     /* lo centra en toda la pagina */
     margin: auto;
     margin-top: 50px;
@@ -31,7 +33,9 @@
 
 .card2{
     text-align: center;
-    width: 40%;
+    width: 60%;
+    max-width: 400px; 
+    margin: 0 auto;   /* centra la caja */
     /* lo centra en toda la pagina */
     margin: auto;
     margin-top: 50px;
@@ -43,7 +47,9 @@
 
 .card3{
     text-align: center;
-    width: 40%;
+    width: 60%;
+    max-width: 400px; 
+    margin: 0 auto;   /* centra la caja */
     /* lo centra en toda la pagina */
     margin: auto;
     margin-top: 50px;
@@ -151,5 +157,6 @@ details{
     text-align: center;
 
 }
+
 
 
